@@ -1,6 +1,10 @@
 # GcodeRender
 Experimental Gcode render and CNN repo to use for Duet3
 
+This is not ready code, just a start
+
+Overall purpose and erhaps goal:
+
 Preparation on SBC:
 1.	User runs a dummy gcode -the printer will move the desired layer height and a picture is taken along with the angle of the camera (I have a Intel D435 + a MPU-6050 chip connected to a Arduino Uno to get the angle) (If you had a D435i the angle would be given directly) in this step I´d like to have a nice way of running Python script in the Gcode on the SBC (future improvements)
 2.	All empty layer pictures are added on the host machine – where the training of the model are run
