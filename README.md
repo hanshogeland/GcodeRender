@@ -1,4 +1,4 @@
-# GcodeRender
+# GcodeRender on layer images
 Experimental Gcode render and CNN repo to use for Duet3
 
 This is not ready code, just a start
